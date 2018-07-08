@@ -1,0 +1,70 @@
+.popover {
+    z-index: 9999;
+    position: fixed;
+}
+
+
+#banner{
+	background-repeat: repeat-x;
+	background-image: url("img/stars.jpg");
+	height: 550px;
+
+}
+
+
+body {
+    font: normal Verdana, Arial, sans-serif;
+}
+
+
+#title{
+	color: black;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 120px;
+    text-shadow: 2px 2px white;
+     opacity: 0.6;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+#box{
+	background-color: #F5FCFF;
+	box-shadow: 3px 3px #6D6D6D;
+}
+
+.nav-tabs > li > a{
+  border: medium none;
+  color:black;
+}
+.nav-tabs > li > a:hover{
+  background-color: #8FBBC9 !important;
+    border: medium none;
+    border-radius: 0;
+    color:white;
+}
+/*
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: auto;
+      margin: auto;
+  }
+*/
+#pics {
+    height: auto; 
+    width: auto; 
+    max-width: 800px; 
+    max-height: 800px;
+}
+
+.carousel-inner > .item > img{
+margin:auto;
+}
+
+#carouseltext{
+ font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+ color: white;
+}
